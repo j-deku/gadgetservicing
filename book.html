@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget Store Booking Form</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header id="navbar">
+        <div class="logo">
+            <a href="index.html">Servicing</a>
+        </div>
+        <nav>
+            <img id="menu" class="menu" src="/assets/menu.png" alt="menu">
+            <ul id="navLinks">
+                <li><a href="book.html"><button type="button">Book Now</button></a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="product.html" target="_blank">Product</a></li>
+                <li><img src="/assets/search (1).png" alt="search"></li>
+            </ul>
+        </nav>
+        <a href="user.html" target="_blank"><img src="/assets/user.png" alt="user"></a>
+    </header>
+    <h1>Booking service Appointment</h1>
+
+<div class="booking-form">
+    <h2>Book a Service</h2>
+    <form id="bookingForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="gadget">Gadget Type:</label>
+        <select id="gadget" name="gadget" required>
+            <option value="">Select a gadget</option>
+            <option value="smartphone">Smartphone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="issue">Describe the Issue:</label>
+        <textarea id="issue" name="issue" rows="8" placeholder="Briefly describe the issue" required></textarea>
+
+        <button type="submit">Submit Booking</button>
+    </form>
+    <div class="success-message" id="successMessage">Thank you! Your booking has been submitted.</div>
+</div>
+
+<footer>
+    <div class="logo">
+        <a href="">Servicing</a>       
+    </div>
+   <nav>
+     <ul>
+         <li><a href="about.html" target="_blank">About</a></li>
+         <li><a href="contact.html" target="_blank">Contact</a></li>
+        <li><a href="tel:+233246062758">(+233) 0246062758</a></li>
+        <li><a href="mailto:jdeku573@gmail.com">jdeku573@gamil.com</a></li>
+    </ul>
+ </nav>
+ <p>
+    &copy; Gadget Servicing 2024. All Rights Reserve
+   </p>
+
+</footer>
+
+<script type="text/javascript" src="book.js"></script>
+</body>
+</html>
