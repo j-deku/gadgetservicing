@@ -203,13 +203,13 @@ h2{
     justify-content: space-evenly;
     place-self: center;
     text-align: center;
-    margin:10;
+    margin:30;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 .item img{
     border-radius: 50%;
-    width: 120px;
+    width: 150px;
     transition: border 0.5s;
     margin:30;
     cursor: pointer;
