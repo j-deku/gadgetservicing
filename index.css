@@ -187,10 +187,16 @@ h2{
     display: flex;
     justify-content:space-evenly;
     flex-direction: row;
+    margin:5;
     align-items: center;
     overflow-x: scroll;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-drag:none;
 }
-.cricles::-webkit-scrollbar {
+.circles::-webkit-scrollbar {
     display: none;
 }
 
@@ -199,12 +205,13 @@ h2{
     justify-content: space-evenly;
     place-self: center;
     text-align: center;
+    margin:10;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 .item img{
     border-radius: 50%;
-    width: 150px;
+    width: 120px;
     transition: border 0.5s;
     cursor: pointer;
     &:hover{
