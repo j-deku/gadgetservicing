@@ -186,7 +186,14 @@ h2{
 .circles{
     display: flex;
     justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
 }
+.cricles::-webkit-scrollbar {
+    display: none;
+}
+
 .circles .item{
     border-radius: 50%;
     justify-content: space-evenly;
