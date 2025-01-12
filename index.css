@@ -419,6 +419,12 @@ footer p{
         cursor: pointer;
         margin-top: 0;
     }
-
+#head h1{
+margin-left:20%;
+margin-top:20%;
+}
+#head p{
+margin:20%;
+}
 
 }
