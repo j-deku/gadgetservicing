@@ -191,10 +191,8 @@ h2{
     align-items: center;
     overflow-x: scroll;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    -webkit-user-drag: none;
     user-select: none;
-    user-drag:none;
 }
 .circles::-webkit-scrollbar {
     display: none;
@@ -211,8 +209,9 @@ h2{
 }
 .item img{
     border-radius: 50%;
-    width: 120px;
+    width: 100px;
     transition: border 0.5s;
+    margin:10;
     cursor: pointer;
     &:hover{
         border: 10px solid rgb(17, 78, 98);
