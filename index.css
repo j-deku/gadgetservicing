@@ -290,7 +290,7 @@ hr{
 .partners{
     justify-content: space-around;
      margin-bottom: 200px;
-     place-self: center;
+     place-self: center; 
 }
 .partners h2{
     text-align: center;
@@ -381,8 +381,7 @@ footer{
     background-color: #202020;
     color: #ccc;
     padding: 30px 80px;
-    max-width: 100%;
-    right: 0;
+    width:100%;
     justify-content: space-evenly;
 }
 footer p{
@@ -420,4 +419,6 @@ footer p{
         cursor: pointer;
         margin-top: 0;
     }
+
+
 }
